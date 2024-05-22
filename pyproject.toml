@@ -1,0 +1,15 @@
+[project]
+name = "comfyui-comfyrun"
+description = "The easiest way to run & share any ComfyUI workflow [a/https://comfyrun.com](https://comfyrun.com)"
+version = "1.0.0"
+license = "LICENSE"
+dependencies = ["blake3", "tqdm", "aiohttp-retry", "aiofiles"]
+
+[project.urls]
+Repository = "https://github.com/thecooltechguy/ComfyUI-ComfyRun"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "ComfyUI-ComfyRun"
+Icon = ""
